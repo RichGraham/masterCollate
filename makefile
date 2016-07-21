@@ -21,6 +21,13 @@ ifeq ($(HN),login01)
 	CC=icc
 endif
 
+#login nodes for minerva
+ifeq ($(HN),login02)
+	CC=icc
+endif
+
+
+
 all: $(PRODUCT)
 
 $(PRODUCT) : $(SOURCES)
