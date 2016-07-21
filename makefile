@@ -1,5 +1,6 @@
 # simple make file
 # September 2004
+# What if I change here?
 SOURCES=masterCollate.c 
 PRODUCT=$(HOME)/bin/masterCollate
 
